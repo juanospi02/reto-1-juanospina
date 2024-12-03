@@ -18,12 +18,6 @@ Un número primo es un número natural mayor que 1, que solo puede dividirse exa
 console.log(findPrimes(20)); // Salida: [2, 3, 5, 7, 11, 13, 17, 19]
 ```
 
-## Instalación
-
-No requiere dependencias externas ni instalación.
-
-1. Copia el código del archivo `findPrimes.js`.
-2. Usa las funciones en tu proyecto o prueba en un entorno como Node.js o el navegador.
 
 ## Código
 
@@ -55,26 +49,5 @@ function isPrime(num) {
 console.log(findPrimes(20)); // [2, 3, 5, 7, 11, 13, 17, 19]
 ```
 
-## Optimización
 
-La función **`isPrime`** usa la raíz cuadrada de `num` para optimizar la cantidad de divisiones necesarias, haciendo que sea más eficiente en comparación con iterar hasta `num-1`.
 
-## Estructura del repositorio
-
-```
-find-primes/
-├── README.md
-├── findPrimes.js
-```
-
-## Contribuciones
-
-Si encuentras algún error o tienes sugerencias para mejorar, ¡no dudes en crear un issue o un pull request!
-
-## Licencia
-
-Este proyecto está bajo la licencia MIT. Puedes usarlo libremente para fines educativos y comerciales.
-
----
-
-¡Gracias por revisar este proyecto! Espero que te sea útil. 😄
